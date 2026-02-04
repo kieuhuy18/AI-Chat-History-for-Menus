@@ -13,3 +13,9 @@ async def getAll():
 
     response = ChatSessionListResponse(code=Code.SUCCESS, message="Success", data=[ChatSession.from_mongo(item) for item in data])
     return response
+
+@router.get("/test-error")
+async def test_error():
+    # Chủ động gây lỗi chia cho 0 để kích hoạt Exception
+    division_by_zero = 1 / 0 
+    return {"message": "Dòng này sẽ không bao giờ chạy"}

@@ -20,10 +20,9 @@ async def connect_to_mongo():
     try:
         db_client.client = AsyncIOMotorClient(
             MONGODB_URL,
-            serverSelectionTimeoutMS=3000  # timeout 3s
+            serverSelectionTimeoutMS=3000
         )
 
-        # 🔍 ping MongoDB
         await db_client.client.admin.command("ping")
 
         db_client.db = db_client.client[DATABASE_NAME]
