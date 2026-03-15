@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import Optional, Literal
 from datetime import datetime
 
@@ -9,11 +9,13 @@ class ChatMessage(BaseModel):
     content: str
 
 class ChatSession(BaseModel):
-    _id: str
+    id: str | None = None
     user_id: str
     title: str
-    contextSumary: str
+    contextSumary: str | None = None
     createdAt: datetime
+    updateAt: datetime | None = None
+    status: bool | None = None
 
     @staticmethod
     def from_mongo(doc: dict) -> "ChatSession":
@@ -21,7 +23,9 @@ class ChatSession(BaseModel):
             _id=str(doc["_id"]),
             user_id=str(doc["userId"]),   
             title=doc["title"],
-            contextSumary=doc.get("contextSumary", ""),
-            createdAt=doc["createdAt"]
+            contextSumary=doc["contextSummary"],
+            createdAt=doc["createdAt"],
+            updateAt=doc["updateAt"],
+            status=doc["status"]
         )
 

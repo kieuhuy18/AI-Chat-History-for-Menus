@@ -1,6 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from core.config import APP_NAME
 from module.HistoryChat.Router import ChatSessionRouter
+from module.User.Router import PermissionRouter
 from core.config import connect_to_mongo, close_mongo_connection
 from fastapi.exceptions import RequestValidationError
 from core.exceptions import BusinessException
@@ -13,8 +14,8 @@ app.add_exception_handler(Exception, server_exception_handler)
 app.add_exception_handler(RequestValidationError, validation_exception_handler)
 app.add_exception_handler(HTTPException, http_exception_handler)
 
-
 app.include_router(ChatSessionRouter.router)
+app.include_router(PermissionRouter.router)
 
 @app.on_event("startup")
 async def startup_db():

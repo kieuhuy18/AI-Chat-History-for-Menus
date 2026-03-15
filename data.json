@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3b1",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Chế độ ăn giảm mỡ",
+    "createdAt": "2025-01-20T08:00:00.000+00:00",
+    "contextSummary": "Thảo luận về thực đơn eat clean và cách tính calories cho người mới bắt đầu.",
+    "status": true,
+    "updateAt": "2025-01-21T10:15:00.000+00:00"
+  },
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3b2",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Học FastAPI từ cơ bản",
+    "createdAt": "2025-01-22T09:30:00.000+00:00",
+    "contextSummary": "Giới thiệu về routing, dependency injection và cách build REST API.",
+    "status": true,
+    "updateAt": "2025-01-23T11:00:00.000+00:00"
+  },
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3b3",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Thiết kế database cho AI Chat",
+    "createdAt": "2025-01-24T07:45:00.000+00:00",
+    "contextSummary": "Phân tích schema lưu chatSessions và message history.",
+    "status": true,
+    "updateAt": "2025-01-25T09:10:00.000+00:00"
+  },
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3b4",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Ôn tập HTTP Status Code",
+    "createdAt": "2025-01-26T06:20:00.000+00:00",
+    "contextSummary": "Tổng hợp các status code quan trọng và cách sử dụng trong REST API.",
+    "status": true,
+    "updateAt": "2025-01-27T08:00:00.000+00:00"
+  },
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3b5",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Tìm hiểu PostgreSQL",
+    "createdAt": "2025-01-28T10:10:00.000+00:00",
+    "contextSummary": "So sánh PostgreSQL với SQL Server và SQLite.",
+    "status": true,
+    "updateAt": "2025-01-29T12:45:00.000+00:00"
+  },
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3b6",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Xây dựng API Gateway",
+    "createdAt": "2025-01-30T05:00:00.000+00:00",
+    "contextSummary": "Triển khai Nginx làm reverse proxy cho hệ thống FastAPI.",
+    "status": true,
+    "updateAt": "2025-01-30T14:30:00.000+00:00"
+  },
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3b7",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Thực hành Two Pointer",
+    "createdAt": "2025-02-01T04:40:00.000+00:00",
+    "contextSummary": "Luyện tập các bài easy trên LeetCode về kỹ thuật hai con trỏ.",
+    "status": true,
+    "updateAt": "2025-02-01T09:25:00.000+00:00"
+  },
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3b8",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Prompt Engineering cơ bản",
+    "createdAt": "2025-02-02T03:15:00.000+00:00",
+    "contextSummary": "Tìm hiểu về zero-shot, few-shot và chain-of-thought prompting.",
+    "status": true,
+    "updateAt": "2025-02-03T07:50:00.000+00:00"
+  },
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3b9",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Quản lý tài chính cá nhân",
+    "createdAt": "2025-02-04T02:00:00.000+00:00",
+    "contextSummary": "Lập kế hoạch tích lũy cho mục tiêu mua nhà và hướng tới tự do tài chính.",
+    "status": true,
+    "updateAt": "2025-02-05T06:30:00.000+00:00"
+  },
+  {
+    "_id": "65b9f1a3a3a3a3a3a3a3a3c0",
+    "userId": "65e0f1a2b3c4d5e6f7a8b901",
+    "title": "Triển khai RAG cho Chatbot",
+    "createdAt": "2025-02-06T01:25:00.000+00:00",
+    "contextSummary": "Thiết kế pipeline embedding, vector store và retrieval cho hệ thống chat.",
+    "status": true,
+    "updateAt": "2025-02-07T08:40:00.000+00:00"
+  }
+]

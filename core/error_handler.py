@@ -30,11 +30,12 @@ async def server_exception_handler(request: Request, exc: Exception):
 
 # Bat loi validation
 async def validation_exception_handler(request: Request, exc: Exception):
+    logger.error(exc)
     return JSONResponse(
         status_code=200,
         content={
             "code": Code.BAD_REQUEST,
-            "message": str(exc)
+            "message": "Lỗi định dạng dữ liệu, vui lòng thử lại sau"
         }
     )
 
